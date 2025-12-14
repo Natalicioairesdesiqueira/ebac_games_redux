@@ -1,6 +1,6 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 
-import { Game } from '../App'
+import { Game } from '../../App'
 
 type CarrinhoState = {
     itens: Game[],
